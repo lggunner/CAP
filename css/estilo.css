@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+  
+*{  margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: dashed;
+
+}
+html{
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url(/img/img\ de\ fundo\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:rgba(255,254,254,0.2);
+    height: 100px;
+}
+.logotipo{
+    width: 150px;
+    padding: 1px;
+}
+.menu{
+
+    display: flex;
+    gap: 150px;
+}
+.menu-item{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+.menu-item:hover  { 
+    cursor: pointer;
+}
+#acesse , #redes {
+    background-color: rgba(19, 17, 17, 0.2);
+    border-radius: 40px;
+}
+#acesse:hover, #redes:hover {
+    background-color:rgba(102, 168, 94, 0.2)
+}
+.conteudo{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 100%;
+
+}
+.conteudoPricipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#titulo {
+    font-size: 70px;
+    font-weight: sans-serif;
+}
+#subtitulo{
+    margin-top: 10px;
+    font-size: 35px;
+}
+.botao{
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(132, 133, 127, 0);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.botao:hover  { 
+    background-color: rgba(63, 99, 84, 0.3);
+    color: black;
+
+}
+.rodape{
+    display: flex;
+    text-align: center;
+    padding: 100px;
+    bottom: 100;
+    font-size: 70px;
+color: rgba(114, 129, 123, 0.7);
+}
